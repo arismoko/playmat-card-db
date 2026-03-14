@@ -1,0 +1,24 @@
+{
+  "name": "playmat-card-db",
+  "version": "0.1.0",
+  "description": "Cloudflare Worker card API for Playmat with normalized card responses and edge caching.",
+  "private": true,
+  "type": "module",
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "mtg",
+    "scryfall",
+    "playmat"
+  ],
+  "scripts": {
+    "check": "tsc --noEmit",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260303.0",
+    "typescript": "^5.8.2",
+    "wrangler": "^4.6.0"
+  }
+}
