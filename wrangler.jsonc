@@ -3,16 +3,14 @@
   "name": "playmat-card-db",
   "main": "src/index.ts",
   "compatibility_date": "2026-03-14",
-  // Fill this in after `wrangler d1 create playmat-card-db`.
-  //
-  // "d1_databases": [
-  //   {
-  //     "binding": "DB",
-  //     "database_name": "playmat-card-db",
-  //     "database_id": "replace-with-your-d1-id",
-  //     "migrations_dir": "migrations"
-  //   }
-  // ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "playmat-card-db",
+      "database_id": "9d11e769-e546-4b24-9886-26814ff6f41a",
+      "migrations_dir": "migrations"
+    }
+  ],
   "observability": {
     "enabled": true
   }
